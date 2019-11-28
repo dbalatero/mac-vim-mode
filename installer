@@ -236,5 +236,12 @@ restart_hammerspoon
 echo
 saysuccess "Install complete"
 echo
-dotsay "💁‍♂️ To change your configuration settings, edit @b@blue[[~/.hammerspoon/init.lua]]"
+dotsay "💁‍♂️ @b@yellow[[Important post-install info]]"
+echo
+dotsay "- To change your configuration settings, edit @b@blue[[~/.hammerspoon/init.lua]]"
+dotsay "- In the Mac menu bar, open Hammerspoon preferences and set:"
+printf "  "
+dotsay "  + @b@blue[[Enable Accessibility]]"
+printf "  "
+dotsay "  + @b@blue[[Launch Hammerspoon at login]]"
 echo
