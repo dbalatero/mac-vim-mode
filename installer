@@ -232,3 +232,9 @@ bootstrap_init_lua
 
 dotheader "Restarting Hammerspoon"
 restart_hammerspoon
+
+echo
+saysuccess "Install complete"
+echo
+dotsay "💁‍♂️ To change your configuration settings, edit @b@blue[[~/.hammerspoon/init.lua]]"
+echo
