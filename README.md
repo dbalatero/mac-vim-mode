@@ -14,8 +14,9 @@ Run this command in your Terminal:
 bash <(curl -s https://raw.githubusercontent.com/dbalatero/mac-vim-mode/master/installer)
 ```
 
-If you don't trust the script, please audit it in Github. It should be pretty
-straight-forward to read, and doesn't require root/sudo.
+If you don't trust the script, please [audit
+it](https://github.com/dbalatero/mac-vim-mode/blob/master/installer). It should
+be pretty straight-forward to read, and doesn't require root/sudo.
 
 ## What the script does:
 
