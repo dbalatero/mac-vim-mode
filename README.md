@@ -6,6 +6,8 @@ a global Vim mode that works almost anywhere in the OS.
 Exceptions are system inputs marked as secure, such as password fields, or
 anything in 1Password.
 
+Main plugin development happens at the [VimMode.spoon repo](https://github.com/dbalatero/VimMode.spoon)
+
 ## Setup
 
 Run this command in your Terminal:
