@@ -59,7 +59,10 @@ function command_exists() {
 }
 
 function warn_about_xcode_tools() {
-  dotsay "@b@yellow[[WARNING]]: If you don't have XCode installed/enabled you're going to have a bad time with this script, so do that first."
+  dotsay "@b@yellow[[WARNING]]: If you don't have XCode tools \
+installed/enabled, you're going to have a bad time with this script, so do \
+that first."
+
   echo
   printf "Sleeping for 3 seconds then continuing with install"
   sleep 1
