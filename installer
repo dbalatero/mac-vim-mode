@@ -58,6 +58,20 @@ function command_exists() {
   command -v "$name" >/dev/null 2>&1
 }
 
+function warn_about_xcode_tools() {
+  dotsay "@b@yellow[[WARNING]]: If you don't have XCode installed/enabled you're going to have a bad time with this script, so do that first."
+  echo
+  printf "Sleeping for 3 seconds then continuing with install"
+  sleep 1
+  printf "."
+  sleep 1
+  printf "."
+  sleep 1
+  printf "."
+  echo
+  echo
+}
+
 function check_for_brew() {
   if ! command_exists brew; then
     dotsay "@b@red[[Homebrew not found - please install it first]]"
@@ -213,6 +227,7 @@ function restart_hammerspoon() {
 }
 
 check_for_brew
+warn_about_xcode_tools
 
 dotheader "Checking for Hammerspoon..."
 install_hammerspoon
